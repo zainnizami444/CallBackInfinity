@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+             android:layout_width="match_parent"
+                android:layout_gravity="center"
+    android:gravity="center"
+             android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txt_Student_Id"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:hint="Student Roll NO" />
+
+    <TextView
+        android:id="@+id/txt_Student_Name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:hint="Student Name" />
+    <TextView
+        android:id="@+id/txt_Subject"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:hint="Student Name" />
+    <TextView
+        android:id="@+id/txt_Marks"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:hint="Marks" />
+ <Button
+     android:id="@+id/btn_Edit"
+     android:layout_width="200dp"
+     android:layout_height="50dp"
+     android:text="Edit"
+     />
+    <Button
+        android:id="@+id/btn_Delete"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Edit"
+        />
+</LinearLayout>
