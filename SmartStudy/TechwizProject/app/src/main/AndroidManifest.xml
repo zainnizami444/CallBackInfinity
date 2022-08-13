@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.techwizproject">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="CallBack Infinity"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TechwizProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".ShowMarks"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Parent"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Student"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddResource"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Parent"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Student"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Teacher"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Register_Teacher"
+            android:exported="true" />
+        <activity
+            android:name=".ProgressEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentProgressInsertActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditActitvity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowStudentMarks"
+            android:exported="true" />
+        <activity
+            android:name=".IntentActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Register_Parent">
+
+    <EditText
+        android:id="@+id/R_Parent_Name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Parent Name" />
+
+
+
+    <EditText
+        android:id="@+id/R_Parent_Email"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/R_Parent_Address"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/R_Parent_Password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/btn_Register_Parent"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+</LinearLayout>
