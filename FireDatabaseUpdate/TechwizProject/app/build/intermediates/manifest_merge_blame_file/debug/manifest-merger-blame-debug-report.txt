@@ -1,0 +1,297 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.techwizproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\zainn\.gradle\caches\transforms-3\2d8c8a2711b97608c930dee2a7178842\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\zainn\.gradle\caches\transforms-3\2d8c8a2711b97608c930dee2a7178842\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\zainn\.gradle\caches\transforms-3\2d8c8a2711b97608c930dee2a7178842\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\zainn\.gradle\caches\transforms-3\2d8c8a2711b97608c930dee2a7178842\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:6:5-72:19
+17        android:allowBackup="true"
+17-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:7:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\zainn\.gradle\caches\transforms-3\b491a99b408b50e59ff2ecfa2e107177\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:dataExtractionRules="@xml/data_extraction_rules"
+19-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:8:9-65
+20        android:debuggable="true"
+21        android:fullBackupContent="@xml/backup_rules"
+21-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:9:9-54
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:10:9-43
+23        android:label="CallBack Infinity"
+23-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:11:9-42
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:12:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:13:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.TechwizProject" >
+27-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:14:9-52
+28        <activity
+28-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:16:9-24:20
+29            android:name="com.example.techwizproject.ShowMarks"
+29-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:17:13-38
+30            android:exported="true" >
+30-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:18:13-36
+31            <intent-filter>
+31-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:19:13-23:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:20:17-69
+32-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:20:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:22:17-77
+34-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:22:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:25:9-27:40
+38            android:name="com.example.techwizproject.Login_Parent"
+38-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:26:13-41
+39            android:exported="false" />
+39-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:27:13-37
+40        <activity
+40-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:28:9-30:40
+41            android:name="com.example.techwizproject.Login_Student"
+41-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:29:13-42
+42            android:exported="false" />
+42-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:30:13-37
+43        <activity
+43-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:31:9-35:20
+44            android:name="com.example.techwizproject.Login_Activity"
+44-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:32:13-43
+45            android:exported="true" >
+45-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:33:13-36
+46        </activity>
+47        <activity
+47-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:36:9-38:40
+48            android:name="com.example.techwizproject.AddResource"
+48-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:37:13-40
+49            android:exported="false" />
+49-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:38:13-37
+50        <activity
+50-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:39:9-41:40
+51            android:name="com.example.techwizproject.RegisterActivity"
+51-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:40:13-45
+52            android:exported="false" />
+52-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:41:13-37
+53        <activity
+53-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:42:9-44:40
+54            android:name="com.example.techwizproject.Register_Parent"
+54-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:43:13-44
+55            android:exported="false" />
+55-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:44:13-37
+56        <activity
+56-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:45:9-47:40
+57            android:name="com.example.techwizproject.Register_Student"
+57-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:46:13-45
+58            android:exported="false" />
+58-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:47:13-37
+59        <activity
+59-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:48:9-50:48
+60            android:name="com.example.techwizproject.Login_Teacher"
+60-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:49:13-42
+61            android:exported="true" />
+61-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:50:13-36
+62        <activity
+62-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:51:9-53:39
+63            android:name="com.example.techwizproject.Register_Teacher"
+63-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:52:13-45
+64            android:exported="true" />
+64-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:53:13-36
+65        <activity
+65-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:54:9-56:40
+66            android:name="com.example.techwizproject.ProgressEditActivity"
+66-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:55:13-49
+67            android:exported="false" />
+67-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:56:13-37
+68        <activity
+68-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:57:9-59:40
+69            android:name="com.example.techwizproject.ShowProgressActivity"
+69-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:58:13-49
+70            android:exported="false" />
+70-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:59:13-37
+71        <activity
+71-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:60:9-62:39
+72            android:name="com.example.techwizproject.StudentProgressInsertActivity"
+72-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:61:13-58
+73            android:exported="true" />
+73-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:62:13-36
+74        <activity
+74-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:63:9-65:40
+75            android:name="com.example.techwizproject.EditActitvity"
+75-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:64:13-42
+76            android:exported="false" />
+76-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:65:13-37
+77        <activity
+77-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:66:9-68:39
+78            android:name="com.example.techwizproject.ShowStudentMarks"
+78-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:67:13-45
+79            android:exported="true" />
+79-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:68:13-36
+80        <activity
+80-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:69:9-71:39
+81            android:name="com.example.techwizproject.IntentActivity"
+81-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:70:13-43
+82            android:exported="true" />
+82-->C:\Users\zainn\AndroidStudioProjects\TechwizProject\app\src\main\AndroidManifest.xml:71:13-36
+83
+84        <service
+84-->[com.google.firebase:firebase-database:20.0.5] C:\Users\zainn\.gradle\caches\transforms-3\2d8c8a2711b97608c930dee2a7178842\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+85            android:name="com.google.firebase.components.ComponentDiscoveryService"
+85-->[com.google.firebase:firebase-database:20.0.5] C:\Users\zainn\.gradle\caches\transforms-3\2d8c8a2711b97608c930dee2a7178842\transformed\firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+86            android:directBootAware="true"
+86-->[com.google.firebase:firebase-common:20.1.1] C:\Users\zainn\.gradle\caches\transforms-3\aac540b1fc9c702a816bdb1ff5edad25\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+87            android:exported="false" >
+87-->[com.google.firebase:firebase-database:20.0.5] C:\Users\zainn\.gradle\caches\transforms-3\2d8c8a2711b97608c930dee2a7178842\transformed\firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+88            <meta-data
+88-->[com.google.firebase:firebase-database:20.0.5] C:\Users\zainn\.gradle\caches\transforms-3\2d8c8a2711b97608c930dee2a7178842\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+89                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+89-->[com.google.firebase:firebase-database:20.0.5] C:\Users\zainn\.gradle\caches\transforms-3\2d8c8a2711b97608c930dee2a7178842\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-database:20.0.5] C:\Users\zainn\.gradle\caches\transforms-3\2d8c8a2711b97608c930dee2a7178842\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:67:13-69:85
+92                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+92-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:68:17-109
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:69:17-82
+94        </service>
+95
+96        <activity
+96-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:27:9-44:20
+97            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+97-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:28:13-80
+98            android:excludeFromRecents="true"
+98-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:29:13-46
+99            android:exported="true"
+99-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:30:13-36
+100            android:launchMode="singleTask"
+100-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:31:13-44
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+101-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:32:13-72
+102            <intent-filter>
+102-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:33:13-43:29
+103                <action android:name="android.intent.action.VIEW" />
+103-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:34:17-69
+103-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:34:25-66
+104
+105                <category android:name="android.intent.category.DEFAULT" />
+105-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:36:17-76
+105-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:36:27-73
+106                <category android:name="android.intent.category.BROWSABLE" />
+106-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:37:17-78
+106-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:37:27-75
+107
+108                <data
+108-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:39:17-42:51
+109                    android:host="firebase.auth"
+109-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:40:21-49
+110                    android:path="/"
+110-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:41:21-37
+111                    android:scheme="genericidp" />
+111-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:42:21-48
+112            </intent-filter>
+113        </activity>
+114        <activity
+114-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:45:9-62:20
+115            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+115-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:46:13-79
+116            android:excludeFromRecents="true"
+116-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:47:13-46
+117            android:exported="true"
+117-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:48:13-36
+118            android:launchMode="singleTask"
+118-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:49:13-44
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+119-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:50:13-72
+120            <intent-filter>
+120-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:51:13-61:29
+121                <action android:name="android.intent.action.VIEW" />
+121-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:34:17-69
+121-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:34:25-66
+122
+123                <category android:name="android.intent.category.DEFAULT" />
+123-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:36:17-76
+123-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:36:27-73
+124                <category android:name="android.intent.category.BROWSABLE" />
+124-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:37:17-78
+124-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:37:27-75
+125
+126                <data
+126-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:39:17-42:51
+127                    android:host="firebase.auth"
+127-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:40:21-49
+128                    android:path="/"
+128-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:41:21-37
+129                    android:scheme="recaptcha" />
+129-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\zainn\.gradle\caches\transforms-3\a236fb473b042ae3f6068286818d78bd\transformed\firebase-auth-21.0.7\AndroidManifest.xml:42:21-48
+130            </intent-filter>
+131        </activity>
+132        <activity
+132-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\zainn\.gradle\caches\transforms-3\86144455ade48fbeb2db46a13a728860\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+133            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+133-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\zainn\.gradle\caches\transforms-3\86144455ade48fbeb2db46a13a728860\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\zainn\.gradle\caches\transforms-3\86144455ade48fbeb2db46a13a728860\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\zainn\.gradle\caches\transforms-3\86144455ade48fbeb2db46a13a728860\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+136
+137        <provider
+137-->[com.google.firebase:firebase-common:20.1.1] C:\Users\zainn\.gradle\caches\transforms-3\aac540b1fc9c702a816bdb1ff5edad25\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+138            android:name="com.google.firebase.provider.FirebaseInitProvider"
+138-->[com.google.firebase:firebase-common:20.1.1] C:\Users\zainn\.gradle\caches\transforms-3\aac540b1fc9c702a816bdb1ff5edad25\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+139            android:authorities="com.example.techwizproject.firebaseinitprovider"
+139-->[com.google.firebase:firebase-common:20.1.1] C:\Users\zainn\.gradle\caches\transforms-3\aac540b1fc9c702a816bdb1ff5edad25\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+140            android:directBootAware="true"
+140-->[com.google.firebase:firebase-common:20.1.1] C:\Users\zainn\.gradle\caches\transforms-3\aac540b1fc9c702a816bdb1ff5edad25\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+141            android:exported="false"
+141-->[com.google.firebase:firebase-common:20.1.1] C:\Users\zainn\.gradle\caches\transforms-3\aac540b1fc9c702a816bdb1ff5edad25\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+142            android:initOrder="100" />
+142-->[com.google.firebase:firebase-common:20.1.1] C:\Users\zainn\.gradle\caches\transforms-3\aac540b1fc9c702a816bdb1ff5edad25\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+143
+144        <meta-data
+144-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\zainn\.gradle\caches\transforms-3\04e8009c1f95a7880d1122a0f8f1db31\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+145            android:name="com.google.android.gms.version"
+145-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\zainn\.gradle\caches\transforms-3\04e8009c1f95a7880d1122a0f8f1db31\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+146            android:value="@integer/google_play_services_version" />
+146-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\zainn\.gradle\caches\transforms-3\04e8009c1f95a7880d1122a0f8f1db31\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+147
+148        <provider
+148-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zainn\.gradle\caches\transforms-3\f00c2c18064ad31eddf09994c362ab68\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+149            android:name="androidx.startup.InitializationProvider"
+149-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zainn\.gradle\caches\transforms-3\f00c2c18064ad31eddf09994c362ab68\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+150            android:authorities="com.example.techwizproject.androidx-startup"
+150-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zainn\.gradle\caches\transforms-3\f00c2c18064ad31eddf09994c362ab68\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+151            android:exported="false" >
+151-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zainn\.gradle\caches\transforms-3\f00c2c18064ad31eddf09994c362ab68\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+152            <meta-data
+152-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zainn\.gradle\caches\transforms-3\f00c2c18064ad31eddf09994c362ab68\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+153                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+153-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zainn\.gradle\caches\transforms-3\f00c2c18064ad31eddf09994c362ab68\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+154                android:value="androidx.startup" />
+154-->[androidx.emoji2:emoji2:1.0.0] C:\Users\zainn\.gradle\caches\transforms-3\f00c2c18064ad31eddf09994c362ab68\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+155            <meta-data
+155-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\zainn\.gradle\caches\transforms-3\617a607dc1de8a7c0a746c43f6a67c33\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+156                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+156-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\zainn\.gradle\caches\transforms-3\617a607dc1de8a7c0a746c43f6a67c33\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+157                android:value="androidx.startup" />
+157-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\zainn\.gradle\caches\transforms-3\617a607dc1de8a7c0a746c43f6a67c33\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+158        </provider>
+159    </application>
+160
+161</manifest>
